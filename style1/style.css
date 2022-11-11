@@ -1,0 +1,17 @@
+body {
+    background: color rgb(73, 52, 194);
+}
+
+img {
+    margin-left: 100px;
+    width: 150px;
+}
+
+p {
+    matgin: 30px;
+}
+
+* {
+    font-family: roboto;
+    text-align: justify;
+}
