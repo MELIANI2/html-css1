@@ -6,12 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=google chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Web Page</title>
-    <link rel="stle1/style.css" href="style1/style.css">
+    <style>
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
     <a name="TopOfThePage"></a>
-    <h1> WELLCOME To GoMyCode </h1>
+    <h1 id="qwerty">WELLCOME To GoMyCode</h1>
     <img src="Image/gmc.png" alt="GoMyCode">
 
     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum numquam provident quidem, tempore nisi,
@@ -28,8 +34,8 @@
         cumque!</p>
 
 
-    <header>
-        <h1> What is GitHub </h1>
+    <header class="q">
+        <h1 id="w"> What is GitHub </h1>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/ct2aJXjzISs" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -43,21 +49,21 @@
     </header>
 
     <br>
-    <h1> Audio </h1>
+    <h1 id="w"> Audio </h1>
     <audio controls>
         <source src="Audio/Stairway to Heaven (Remaster).mp3" type="audio/mpeg">
         Stairway to Heaven (Remaster)
     </audio>
-    <h1> Video </h1>
-    <video width="320" height="240" autoplay>
+    <h1 id="w"> Video </h1>
+    <video width="320" height="240" controls>
         <source src="Video/Women meme template.mp4" type="video/mp4" />
         Women meme template
     </video>
     <br>
     <br>
 
-    <main>
-        <h1> Liste non ordonnée </h1>
+    <main class="e">
+        <h1 id="w"> Liste non ordonnée </h1>
         <ul type="square">
             <li>Test 1</li>
             <li>Test 2</li>
@@ -68,7 +74,7 @@
         <br>
 
 
-        <h1> Liste ordonnée </h1>
+        <h1 id="w"> Liste ordonnée </h1>
         <ol type="I">
             <li>Test 1</li>
             <li>Test 2</li>
@@ -78,7 +84,7 @@
         <br>
         <br>
 
-        <h1>Liste des descriptions</h1>
+        <h1 id="w">Liste des descriptions</h1>
         <p>The House Sigils In GOT:</p>
 
         <dl>
@@ -99,7 +105,7 @@
         <br>
         <br>
         <div>
-            <h1> HTML, CSS, JAVASCRIPT </h1>
+            <h1 id="w"> HTML, CSS, JAVASCRIPT </h1>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat expedita earum molestiae aut, voluptas
                 alias itaque cupiditate laudantium sint numquam eligendi libero cum quo impedit, dolorum, placeat ad qui
                 neque.
@@ -112,7 +118,7 @@
             <br>
             <br>
 
-            <h1>Balise de tableau</h1>
+            <h1 id="w">Balise de tableau</h1>
             <table border="5">
                 <tr>
                     <th>HTML</th>
@@ -136,13 +142,14 @@
     <br>
 
     <footer>
-        <section>
-            <a href="contact.html" target="_blank">Privacy Policy</a>
+        <section id="r">
+            <a href="contact.html" target="_blank"> Privacy Policy</a>
+
         </section>
         <br>
         <br>
 
-        <a href="#TopOfThePage"> Let's go up Top</a>
+        <a href="#TopOfThePage" target="_blank"> Let's go up Top</a>
         <br>
         <br>
         <form>

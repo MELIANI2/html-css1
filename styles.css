@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(130, 127, 125);
+    padding: 50px;
+    border-style: solid;
+}
+
+#qwerty {
+    margin: auto;
+    border-style: double;
+    border-color: tomato;
+    padding: 15px;
+}
+
+img {
+    margin-left: auto;
+    width: auto;
+    height: auto;
+}
+
+p {
+    margin: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant-position: super;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    padding: 15px;
+
+}
+
+#w {
+    font-family: inherit !important;
+    text-align: :first-letter;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+}
+
+.e {
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+.q {
+    font-family: 'Courier New', Courier, monospace;
+}

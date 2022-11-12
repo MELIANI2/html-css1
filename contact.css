@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(202, 201, 216);
+    font: optional;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bold;
+    font: small-caps;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    margin: 120px;
+    margin-inline: unset;
+    border-color: rgb(0, 0, 3);
+    border-style: inset;
+
+}
